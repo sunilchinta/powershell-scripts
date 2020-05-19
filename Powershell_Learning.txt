@@ -1,0 +1,12 @@
+Letter frequency analysis of text by using PowerShell(Character count)
+======================================================================
+https://blogs.technet.microsoft.com/heyscriptingguy/2016/04/08/letter-frequency-analysis-of-a-text-using-powershell/
+
+How Can I Tell Which Numbers Are Missing From a Sequence of Numbers Found in a Text File? In Powershell ?
+=========================================================================================================
+http://mow001.blogspot.com/2006/09/powershell-how-can-i-tell-whitch.html
+
+
+https://www.newsday.com/entertainment/movies/the-biggest-box-office-hits-of-all-time-1.5369007
+
+7780137951
