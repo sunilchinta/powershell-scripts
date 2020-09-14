@@ -6,9 +6,9 @@
 # Magnus Andersson RTS
 #
 # Specify vCenter Server, vCenter Server username and vCenter Server user password
-$vCenter="lvnlvvcf.lvn.broadcom.net"
-$vCenterUser="brcmltd\sc645393"
-$vCenterUserPassword="Precision@7520"
+$vCenter=""
+$vCenterUser=""
+$vCenterUserPassword=""
 #
 # Specify number of VMs you want to create
 $vm_count = "3"
