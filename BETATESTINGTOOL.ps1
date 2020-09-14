@@ -8,7 +8,7 @@ Add-PSSnapin VMware.VimAutomation.Vds
 #################################################################################################################################
 #                               Connect to the ESX hosts
 #################################################################################################################################
-Connect-VIServer lodivsesx002.ca.com –User 'root' –Password 'interOP@123' -Force -WarningAction SilentlyContinue
+Connect-VIServer  –User 'root' –Password '' -Force -WarningAction SilentlyContinue
 Connect-VIServer lodivs104.ca.com –User 'root' –Password 'interOP@123' -Force -WarningAction SilentlyContinue
 
 $source = "\\lodivsa1nas1\CA_Rollups\SUVP_BetaTesting\BETA-TESTING"
@@ -26,7 +26,7 @@ ForEach ($Revert in $csvData)
                Write-Host("`nFound match " + $OSFolders[$i])
                $VM = Get-VM -Name $Revert.Name
                $VMName=$Revert.Name + ".ca.com"
-               $password = convertto-securestring -String 'itrmbl4u@'-AsPlainText -Force
+               $password = convertto-securestring -String '<password>'-AsPlainText -Force
                $mycred = new-object -typename System.Management.Automation.PSCredential('Administrator', $password)
                $Dest1 = '\\' + $VMName + '\c$\windows\Temp'
                <#If((Test-Path T:))
